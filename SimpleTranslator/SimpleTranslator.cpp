@@ -6,7 +6,7 @@ using namespace std;
 
 class Parser {
 
-    static int lookahead;
+    int lookahead;
 
 public:
     Parser() {
